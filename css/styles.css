@@ -1,0 +1,104 @@
+/* Summer Lewis */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgimage {
+	background-image: url('../css/header.jpg');
+	height: 150px;
+	background-position: center;
+}
+
+.ltBlueCol {
+	background-color: #CCFFFF;
+	height: 400px;
+}
+
+.drkBlueCol {
+	background-color: #99FFFF;
+	height: 400px;
+}
+
+.highlight {
+	background-color: #FFF;
+	color: #000;
+}
+
+h1 {
+	font-size: 200%;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+
+h2 {
+	padding: 30px 35px 30px 10px;
+	font-size: 125%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #366;
+	background: url(smallbug.png) no-repeat right center;
+	height: 2.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #880402;
+}
+
+a:hover {
+	color: #00515C;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+header {
+	padding: 10px 10px 20px 10px;
+	background-color: #B6DACB;
+	color: #000;
+	height: 100%;
+}
+
+nav {
+	background-color: #7BB022;
+	color: #000;
+}
+
+.btn-link, .btn-link.active, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+	background-color: #7BB022 !important;
+}
+
+.navbar{
+	margin-bottom: 0px !important;
+}
+
+#content {
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+#content ul {
+	padding-left: 10px;
+}
+
+.listtype {
+	list-style-type: none;
+	margin: 0;
+	padding: 0.25em;
+	border-top: 1px solid #666;
+}
+
+#footer {
+	margin: 0;
+	padding: 10px;
+	border-top: 4px solid #366;
+	font-size: 90%;
+	background-color: #B6DACB;
+	color: #000;
+}
