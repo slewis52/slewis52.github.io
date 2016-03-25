@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(minttreesbg.png);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#content {
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+}
+
+p {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+ul {
+	margin-left: 75px;
+}
+
+h1 {
+	background-image: url(logo.png);
+	width: 600px;
+	height: 100px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	background-position: center center;
+	padding-left: 200px;
+	padding-right: auto;
+}
+
+h2 {
+	border-bottom: thick double #96D7B0;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+h5 {
+	text-align: right;
+	padding-right: 50px;
+}
+
+#footer {
+	color: #000000;
+	text-align: right;
+	background-color: #C7DFD5;
+	font-size: small;
+}
+
+.highlight {
+	background-color: #DCFAA4;
+}
+
+a:link {
+	color: #005430;
+}
+
+a:visited {
+	color: #002066;
+}
+
+a:hover {
+	color: #002066;
+}
+
+#nav
+{
+	width: 100%;
+	float: left;
+	background-color: #B1DCC7;
+	height: 4em;
+	margin-bottom: 20px;
+}
+
+#nav ul { padding: 0; }
+#nav ul li { display: inline;
+padding: 0; }
+
+#nav ul
+{
+	color: #FFFFFF;
+	font: bold 1em tahoma, verdana, geneva, arial, helvetica, sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	height: 4em;
+	margin-left: 10px;
+}
+
+#nav ul li a
+{
+	background-color: #C7DFD5;
+	color: #005430;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #FFF;
+	font-size: 1em;
+	height: 2em;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#nav ul li a:hover
+{
+	padding-right: 12px;
+	padding-left: 12px;
+	background-color: #C7DFD5;
+	color: #005430;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #FFF;
+	font-size: 1em;
+	height: 2em;
+	padding-top: 10px;
+}
+
+#navlist li a:hover, #navlist li a:active
+{
+color: #FFFFFF;
+text-decoration: none;
+background: #CC3333;
+text-align: left;
+text-transform: uppercase;
+font: bold normal 10px/16px "Lucida Sans Unicode", verdana, lucida, arial, helvetica, sans-serif;
+}
