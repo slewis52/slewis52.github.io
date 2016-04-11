@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(images/desktoptexture.jpg);
+}
+
+#outer {
+	width: 987px;
+	margin: 0 auto;
+	font-size: 90%;
+}
+
+#banner h1 {
+	text-align: left;
+	padding-top: 1em;
+	margin: 0;
+	border-bottom-color: #000;
+	background-image: url(images/layout1header.png);
+	height: 169px;
+	text-indent: 255px;
+	font-size: 50px;
+	color: #281200;
+}
+
+#nav {
+	width: 200px;
+	float: left;
+	margin-left: 94px;
+	height: 550px;
+	background-image: url(images/layout1contentbg.png);
+}
+
+#nav ul {
+	margin: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	list-style: none;
+	font-weight: bold;
+}
+
+#nav li {
+
+}
+
+#content {
+	width: 564px;
+	float: left;
+	height: 550px;
+	background-image: url(images/layout1contentbg.png);
+	padding-right: 35px;
+}
+
+#content p {
+	margin: 0;
+	line-height: 1.5em;
+	font-size: large;
+	color: #562D19;
+}
+
+#content h2 {
+	margin: 0;
+	padding: 0 0 0 0.5em;
+	letter-spacing: .3em;
+}
+
+#footer {
+	clear: both;
+	background-image: url(images/layout1footer.png);
+	height: 144px;
+}
+
+#footer p {
+	padding: 1em;
+	margin: 0;
+}
+
+a:link {
+	color: #B55200;
+}
+
+a:visited {
+	color: #A0753E;
+}
+
+a:hover {
+	color: #281200;
+}
+
+a:active {
+	color: #A0753E;
+}
+.imgframe {
+	border: 40px solid #281200;
+}
