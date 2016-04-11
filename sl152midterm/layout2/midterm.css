@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(images/coffeebeans.jpg);
+}
+
+#outer {
+	width: 987px;
+	margin: 0 auto;
+	font-size: 90%;
+	background-image: url(images/doughnuthotcoffeelarge.jpg);
+}
+
+#banner h1 {
+	text-align: left;
+	padding-top: 1em;
+	margin: 0;
+	border-bottom-color: #000;
+	height: 50px;
+	text-indent: 255px;
+	font-size: 50px;
+	color: #281200;
+}
+
+#nav {
+	width: 790px;
+	margin-left: 94px;
+	height: 50px;
+	background-image: url(images/layout1contentbg.png);
+}
+
+#nav ul {
+	margin: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	list-style: none;
+	font-weight: bold;
+}
+
+#nav li {
+	display: inline;
+
+}
+
+#content {
+	width: 755px;
+	height: 550px;
+	background-image: url(images/layout1contentbg.png);
+	padding-right: 35px;
+	margin-left: 94px;
+}
+
+#content p {
+	line-height: 1.5em;
+	font-size: large;
+	color: #562D19;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#content h2 {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	letter-spacing: .3em;
+}
+
+#footer {
+	height: 55px;
+	width: 790px;
+	margin-left: 94px;
+}
+
+#footer p {
+	padding: 1em;
+	margin: 0;
+}
+
+a:link {
+	color: #B55200;
+}
+
+a:visited {
+	color: #A0753E;
+}
+
+a:hover {
+	color: #281200;
+}
+
+a:active {
+	color: #A0753E;
+}
+.imgframe {
+	border: 40px solid #281200;
+}
