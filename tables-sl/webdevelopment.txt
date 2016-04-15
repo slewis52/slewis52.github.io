@@ -1,0 +1,12 @@
+Course	Title	Semester	Credits
+CIS 151	Web Skills and Creating Web Pages	All	2
+CIS 152	Web Development I	All	3
+CSC 121	Web Development II	Fall/Spring	3
+CSC 155	CGI with Perl	Fall/Spring	3
+CSC 175	Introduction to JavaScript Programming	Fall/Spring	3
+CSC 177	Active Server Pages	Fall/Spring	3
+CSC 255	Topics in Web Programming	Fall/Spring	4
+CTC 136	Web Page Coding Topics	All	1
+CTC 137	Dreamweaver I	All	1
+CTC 138	Dreamweaver II	All	1
+CTC 196	Creating Web Pages Using HTML	All	1
