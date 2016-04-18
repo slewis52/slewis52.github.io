@@ -6,22 +6,52 @@
 <meta name="description" content="Doughnut Delights has been serving C-U with the highest quality doughnuts and coffees since 1971. Nestled in downtown Urbana, Doughnut Delights has become a haven for “Gotta have it” breakfast treats. Our doughnuts are baked fresh twice daily and our coffee’s brewed every fifteen minutes. If you have never been to C-U’s hidden gem then you are missing out.">
 <link href="midterm.css" rel="stylesheet" type="text/css">
 <link href="themes/js-image-slider.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+h3 + li {
+	margin-top: -1em;
+	margin-bottom: -2em;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+}
+h4 + ul {
+	margin-top: -1em;
+	border-top: thin dotted #000000;
+}
+</style>
 </head>
 
 <body>
-<div id="outer">
-  <div id="banner">
-    <h1></h1>
-  </div>
-  <div id="nav">
+  <div id="nav"><img src="images/donutDelightsLogo.png" alt="" width="237" height="236" class="imgleft"/>
     <ul>
       <li>Home</li>
       <li><a href="menu.html">What's on the menu?</a></li>
       <li><a href="aboutus.html">About Us</a></li>
       <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
     </ul>
   </div>
-  <div id="content">
+<div id="outer">
+<div id="sidebar">
+	<h4>Dough-nut miss out on these specials!</h4>
+    <ul>
+    <h3>Mondays:</h3>
+    <li><p>I like you a latt&eacute;!<br>
+    	<em>15% off espressos!</em></p></li><br>
+    <h3>Tuesdays:</h3>
+    <li><p>"Hole"-y Haven!<br>
+    	<em>15% off any regular donut!</em></p></li><br>
+    <h3>Wednesday:</h3>
+    <li><p>BOGO Bro-nut<br>
+    <em>From 2-5 show up with a friend, and get BOGO on a regular donut!</em></p></li><br>
+    <h3>Thursdays:</h3>
+    <li><p>Just let it dough<br>
+    <em>Buy a jelly donut, get a free small hot coffee!</em></p></li><br>
+    <h3>Fridays:</h3>
+    <li><p>The more donuts, the batter<br>
+    <em>15% off baker's dozen donuts!</em></p></li>
+    </ul>
+</div><!--End of sidebar division-->
+<div id="content">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="themes/js-image-slider.js"></script>
     <div id="sliderFrame">
@@ -57,13 +87,17 @@
         <div style="clear:both;height:0;"></div>
     </div>
     <br>
-    <p><em>Doughnut Delights has been serving C-U with the highest quality doughnuts and coffees since 1971. Nestled in downtown Urbana, Doughnut Delights has become a haven for &ldquo;Gotta have it&rdquo; breakfast treats. Our doughnuts are baked fresh twice daily and our coffee&rsquo;s brewed every fifteen minutes. If you have never been to C-U&rsquo;s hidden gem then you are missing out.</em></p>
-<p>&nbsp;</p>
-  </div>
-  <div id="footer">
-<p>Copyright &copy; 2016 Summer Lewis All Rights Reserved<br>
+	<p><em>Doughnut Delights has been serving C-U with the highest quality doughnuts and coffees since 1971. Nestled in downtown Urbana, Doughnut Delights has become a haven for &ldquo;Gotta 		have it&rdquo; breakfast treats. Our doughnuts are baked fresh twice daily and our coffee&rsquo;s brewed every fifteen minutes. If you have never been to C-U&rsquo;s hidden gem then you are missing out.</em></p>
+	<p>&nbsp;</p>
+</div><!--End of content division-->
+<div id="footer">
+	<p>Copyright &copy; 2016 Summer Lewis All Rights Reserved<br>
    Work in progress - Rough draft of layout</p>
-  </div>
+   <form action="http://www.my-store.com/index.php" method="post">
+   <input name="email" type="text" size="50" value="Email: " />
+   <input type="submit" name="submit" value="Join Our Mailing List" />
+</form>
+</div><!--End of footer division-->
 </div><!--End of outer division-->
 </body>
 </html>
