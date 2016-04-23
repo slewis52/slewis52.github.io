@@ -225,4 +225,10 @@ p, ul {
 
 #footer a {
 	color: #000000;
+}th {
+	width: 50%;
+	text-align: left;
+}
+table , input , textarea, fieldset{
+	border: 1px solid #000000;
 }
