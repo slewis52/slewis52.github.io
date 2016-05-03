@@ -20,6 +20,23 @@ h4 + ul {
 tbody tr th {
 	text-align: left;
 	background-color: #A17C52;
+	width: 50px;
+}
+tbody tr td[scope="col"] {
+	border-bottom: thin dotted #8C6736;
+	border-spacing: 10px 0px;
+	width: 50px;
+}
+tbody tr th[scope="col"] {
+	width: 50px;
+}
+#outer #content table {
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0px 0px;
+	border-collapse: collapse;
+	width: 90%;
+	margin-top: 25px;
 }
 </style>
 </head>
@@ -33,7 +50,7 @@ tbody tr th {
       <li><a href="contactus.html">Contact Us</a></li>
       <li><a href="gallery.html">Gallery</a></li>
     </ul>
-  </div>
+  </div> <!--end of nav-->
 <div id="outer">
 <div id="sidebar">
 	<h4>Dough-nut miss out on these specials!</h4>
@@ -55,79 +72,88 @@ tbody tr th {
     <li><p>The more donuts, the batter<br>
     <em>15% off baker's dozen donuts!</em></p></li>
     </ul>
-</div>
+</div><!--end of sidebar-->
 <div id="content">
-<table width="78%">
-  <tbody>
+  <table width="78%">
+    <tbody>
     <tr>
       <th scope="col">Regular Donuts</th>
       <th scope="col">&nbsp;</th>
       <th scope="col">Single Price: $1.05</th>
-      <th scope="col">Baker's Dozen (13): $8.65</th>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">Baker's Dozen:<br> $8.65</th>
     </tr>
     <tr>
-      <td scope="row">&nbsp;</td>
-      <td scope="col">Choco Frosted</td>
-      <td scope="col">Glazed</td>
-      <td scope="col">Plain Cruller</td>
+      <td scope="col"><img src="images/chocofrost.png" width="100" height="73" alt=""/><br>Choco Frosted</td>
+      <td scope="col">&nbsp;</td>
+      <td scope="col"><img src="images/glazed.png" width="100" height="73" alt=""/><br>Glazed</td>
+      <td scope="col">&nbsp;</td>
+      <td scope="col"><img src="images/plaincruller.png" width="100" height="73" alt=""/><br>Plain Cruller</td>
       </tr>
     <tr>
-      <td scope="row">&nbsp;</td>
-      <td>Vanilla Frosted</td>
-      <td>Choco Glazed</td>
-      <td>Honey Wheat</td>
+      <td><img src="images/vanfrost.png" width="100" height="73" alt=""/><br>Vanilla Frosted</td>
+      <td>&nbsp;</td>
+      <td><img src="images/chocoglazed.png" width="100" height="73" alt=""/><br>Choco Glazed</td>
+      <td>&nbsp;</td>
+      <td><img src="images/honeywheat.png" width="100" height="73" alt=""/><br>Honey Wheat</td>
       </tr>
     <tr>
-      <td scope="row">&nbsp;</td>
-      <td>Bostom Cream</td>
-      <td>Marble Twist</td>
-      <td>Jelly Puff</td>
+      <td><img src="images/bostoncream.png" width="100" height="73" alt=""/><br>Bostom Cream</td>
+      <td>&nbsp;</td>
+      <td><img src="images/twist.png" width="100" height="73" alt=""/><br>Marble Twist</td>
+      <td>&nbsp;</td>
+      <td><img src="images/jellypuff.png" width="100" height="73" alt=""/><br>Jelly Puff</td>
       </tr>
     <tr>
-      <td scope="row">&nbsp;</td>
-      <td>Jelly Filled</td>
-      <td>Sugar Raised</td>
-      <td>Cream Puff</td>
+      <td><img src="images/jellyfilled.png" width="100" height="73" alt=""/><br>Jelly Filled</td>
+      <td>&nbsp;</td>
+      <td><img src="images/sugarraised.png" width="100" height="73" alt=""/><br>Sugar Raised</td>
+      <td>&nbsp;</td>
+      <td><img src="images/creampuff.png" width="100" height="73" alt=""/><br>Cream Puff</td>
       </tr>
     <tr>
-      <td scope="row">&nbsp;</td>
-      <td>Cream Filled</td>
-      <td>Plain Donut</td>
-      <td>Coffee Roll</td>
+      <td><img src="images/creamfilled.png" width="100" height="73" alt=""/><br>Cream Filled</td>
+      <td>&nbsp;</td>
+      <td><img src="images/plain.png" width="100" height="73" alt=""/><br>Plain Donut</td>
+      <td>&nbsp;</td>
+      <td><img src="images/coffeeroll.png" width="100" height="73" alt=""/><br>Coffee Roll</td>
       </tr>
     <tr>
-      <th scope="row">Fancy Donuts</th>
+      <th>Fancy Donuts</th>
       <th>&nbsp;</th>
       <th>Single Price: $2.00</th>
       <th>&nbsp;</th>
+      <th>&nbsp;</th>
     </tr>
     <tr>
-      <td scope="row">&nbsp;</td>
       <td>Bow Tie</td>
+      <td>&nbsp;</td>
       <td>Apple Turnover</td>
+      <td>&nbsp;</td>
       <td>Fancy Coffee Roll</td>
     </tr>
     <tr>
-      <td scope="row">&nbsp;</td>
       <td>&Eacute;clair</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th scope="row">French Cruller</th>
+      <th>French Cruller</th>
       <th>&nbsp;</th>
       <th>Single Price $2.00</th>
+      <th>&nbsp;</th>
       <th>&nbsp;</th>
     </tr>
   </tbody>
 </table>
-
-	<p>&nbsp;</p>
-</div>
+<p>&nbsp;</p>
+</div><!--end of content-->
 <div id="footer">
 	<p>Copyright &copy; 2016 Summer Lewis All Rights Reserved<br>
    Work in progress - Rough draft of layout</p>
-</div><!--End of content division-->
+</div><!--End of footer division-->
 </div><!--End of outer division-->
 </body>
 </html>
