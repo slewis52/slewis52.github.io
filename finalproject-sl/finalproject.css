@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(images/coffeebeans.jpg);
+	background-position: left 1200px;
+}
+
+#nav {
+	width: 100%;
+	height: 100px;
+	background-color: #332B28;
+	border-bottom: thick solid #A17C52;
+	color: #A17C52;
+	font-size: x-large;
+}
+
+
+#outer {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 90%;
+}
+
+#content {
+	width: 45%;
+	float: right;
+	height: 800px;
+	background-image: url(images/outerbg.png);
+	margin-left: 10%;
+}
+#sidebar   {
+	float: right;
+	width: 15%;
+	height: 800px;
+	background-image: url(images/outerbg.png);
+	margin-right: 10%;
+	padding-right: 25px;
+}
+#sidebar ul  {
+	list-style: none;
+	font-size: small;
+	-webkit-padding-start: 0;
+}
+
+#nav ul {
+	padding-right: 0;
+	list-style: none;
+	font-weight: bold;
+	margin-top: 25px;
+	padding-top: 50px;
+}
+
+#nav li {
+	display: inline;
+	border-right-width: thin;
+	border-right-style: solid;
+	margin-right: 10px;
+	padding-right: 15px;
+}
+
+#content p {
+	line-height: 1.5em;
+	font-size: large;
+	color: #281200;
+	padding-left: 50px;
+	padding-right: 15px;
+}
+
+#content h2 {
+	padding-top: 0;
+	padding-bottom: 0;
+	letter-spacing: .3em;
+}
+
+#footer {
+	height: auto;
+	margin-right: 10%;
+	float: right;
+	background-image: url(images/outerbg.png);
+	width: 61.3%;
+}
+#footer p {
+	text-align: right;
+	font: x-small Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:link {
+	color: #A17C52;
+	text-decoration: none;
+	font-style: italic;
+	font-size: medium;
+}
+
+a:visited {
+	color: #A17C52;
+	text-decoration: none;
+	font-size: medium;
+}
+.imgleft {
+	float: left;
+	margin-left: 50px;
+	margin-right: 15px;
+}
+
+a:hover {
+	color: #CECDCB;
+	text-decoration: underline;
+	font-size: large;
+}
+
+a:active {
+	color: #A0753E;
+	text-decoration: none;
+}
